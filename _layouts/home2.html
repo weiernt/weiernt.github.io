@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<article class="post">
+  <div style="width: auto;">
+    <div style="width: 60%; float: left;">
+      <header class="post-header">
+        <h1 class="post-title">{{ site.title | escape }}</h1>
+        <!-- <h3 class="post-content">{{ site.subtitle | escape }}</h3> -->
+        
+        <!-- {%- if page.bulletpoints -%}
+          <ul>
+          {%- for point in page.bulletpoints -%}
+            <li> <h3 >{{ point }}</h3></li>
+          {%- endfor -%}
+          </ul>
+        {%- endif -%} -->
+
+        {%- if page.bulletpoints -%}
+        
+          {%- for point in page.bulletpoints -%}
+            <h3 >
+              {{ point }}
+            </h3>
+          {%- endfor -%}
+        
+        {%- endif -%}
+      </header>  
+    </div>
+      
+    <div style="width:40%; float: right;">
+      <img style="scale: 0.85; float: right;" src="{{ "/assets/profile2.png" | relative_url}}" alt="">
+    </div>
+  </div>
+  <div style="clear: both;"></div>
+
+  <div style="height: 50px;"></div>
+
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

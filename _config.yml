@@ -34,7 +34,13 @@ twitter_username: ern_ryan
 github_username:  weiernt
 linkedin_username: ryan-tan-rtwe
 
+permalink: /:slug
+
+
 subtitle: Electrical Engineering Student
+
+show_excerpts: true
+# excerpt_separator: <!--more-->
 
 # header_pages: ['Home', 'Posts', 'Pics']
 

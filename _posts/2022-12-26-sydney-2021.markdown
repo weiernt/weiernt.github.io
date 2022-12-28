@@ -1,0 +1,59 @@
+---
+layout: post
+title: "Radiation Tests on a sRAM Chip at ANSTO, Sydney"
+date:   2022-12-25 15:18:24 +1100
+
+thumbnail: "/assets/sydney2021/jafar_and_me_ansto.png"
+
+excerpt_separator: <!--more-->
+
+
+---
+
+In March of 2021, I got the opportunity to travel to **ANSTO** (Australian Nuclear Science and Technology Organisation) in Sydney, Australia, with my supervisor (at the time). <!--more-->
+ANSTO is a leading research organisation that focuses on nuclear science and technology, and is home to some of the most advanced research facilities in the world. 
+
+
+|![image tooltip here](/assets/sydney2021/jafar_and_me_ansto.png){:.centered , width="50%"}|
+|:--:| 
+| *My supervisor and I standing in front of the experiment set up*|
+
+
+
+
+Visiting ANSTO was an amazing experience for me, as I got to see some of the massive accelerators used for mass spectrometry and ion beam analysis. It was a rewarding and gratifying feeling, seeing the `Python` code I wrote used for the experiments as well.
+
+This whole project started in late 2019, basically at the end of my first year of undergrad, I was looking to get some experience in research, and just looking for some project to do over the holidays. I contacted one of my physics lecturers and they helped me to get in contact with a postdoctoral researcher, which is how I ended up working on this project. 
+
+The project involved writing `Python` code and scripts to check for "bit flips" (also refered to as [Singular Event Upsets, SEUs](https://ieeexplore.ieee.org/document/509840)) in an experimental radiation-hardened static RAM (sRAM) memory chip designed by the postdoc researcher. The `Python` scripts could write 0s and 1s to the sRAM chip, and similarly read them back. This was used to verify the chips could function normally (like storing data, and reading data) *in the absence* of any radiation. If there was a discrepancy between the data written and the data read back, then a plot would be generated to get an idea of where this discrepancy occurred in the memory chip.
+
+Thus after verifying the chips were working fine, we were able to arrange a visit to ANSTO, in order to have protons directed onto the memory chip. This was done to test the ability for the chip to withstand the usual [radiation in space](https://lws-set.gsfc.nasa.gov/documents/Modeling_the_Space_Radiation_Environment.pdf). We used the [SIRIUS accelerator](https://www.ansto.gov.au/our-facilities/centre-for-accelerator-science/sirius-accelerator) to fire protons on the chip.
+
+|![image tooltip here](/assets/sydney2021/fpga.jpg){:.centered , width="35%"}|
+|:--:| 
+| *The FPGA connected outside of the vacuum chamber, the FPGA was used to interface with the memory chip from the computer.*|
+
+|![image tooltip here](/assets/sydney2021/vacuum_chamber.jpg){:.centered , width="50%"}|
+|:--:| 
+| *sRAM inside the vacuum chamber* |
+
+
+|![image tooltip here](/assets/sydney2021/gui.png){:.centered , width="35%"}|
+|:--:| 
+| *Python GUI for reading and writing data to the sRAM chip, written using Qt* |
+
+|![image tooltip here](/assets/sydney2021/comparison_plot.png){:.centered , width="35%"}|
+|:--:| 
+| *Plot output when there is a difference between the data written to the chip, and the data read back from the chip, written using matplotlib for Python* |
+
+
+It was a real shame though, that I wasn't able to tour around the city of Sydney during this time, since place we were staying at was a fair distance away from the city. It also didn't help that there was a lot of rain throughout the week we were there. Furthermore, since it was still during the normal semester period, I was also trying to keep up with my usual uni commitments, catching up with lectures and workshops to avoid falling behind, thus there wasn't much time to relax and visit places around Sydney.
+
+Nonetheless, it was still a very exciting and interesting experience to get to fly out to Sydney, and get to at the huge research facilities at ANSTO!
+
+
+
+
+
+<!-- In this blog post, I will share my experiences from the trip and highlight some of the exciting research that is being done at ANSTO. I hope you enjoy reading about my journey and learning more about ANSTO's groundbreaking work!" -->
+

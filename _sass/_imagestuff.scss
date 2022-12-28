@@ -3,3 +3,21 @@ img.centered {
     margin-left: auto;
     margin-right: auto;
 }
+
+.match-text-height {
+    height: 9em;
+}
+
+div.post-float-left {
+    width: 70%;
+    float: left;
+}
+
+div.post-float-right {
+    width: 30%;
+    float: right;
+}
+
+div.clear {
+    clear: both;
+}

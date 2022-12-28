@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Pictures
-permalink: /pics/
+permalink: /pics
+
+hidden: true
 ---
 
 This is the pics page

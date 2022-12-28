@@ -1,0 +1,32 @@
+{%- if site.posts.size > 0 -%}
+<h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+<ul class="post-list">
+  {%- for post in site.posts -%}
+  <li>
+    <div class="post-float-left">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}
+    </div>
+
+    <div class="post-float-right">
+      {%- if post.thumbnail -%}
+        <a class="post-float-right" href="{{ post.url | relative_url }}">
+          <img class="match-text-height " src="{{ post.thumbnail | relative_url }}"> </img>
+        </a>
+      {%- endif -%}
+    </div>
+    <div class="clear"></div>
+  </li>
+  {%- endfor -%}
+</ul>
+
+<!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+{%- endif -%}

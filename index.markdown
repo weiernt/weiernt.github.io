@@ -4,14 +4,22 @@
 
 layout: home2
 title: Home
+permalink: /
 bulletpoints: [
     'Final Year Electrical Engineering Student :mortar_board:',
     'Lab Research Assistant :mag_right:',
-    'Associate IT Consultant :computer:' ,
-    "Python enthusiast :snake:",]
+    'Student IT Associate Consultant :computer:' ,
+    "Python enthusiast :snake:",
+    ]
+
+awards: [
+    '',
+]
+
+list_title: "Posts/Projects/Updates :book:" # title for the projects and posts etc
 ---
 
 <!-- # Big Title testing!
 ## Another smaller one? -->
 
-:computer:
+I'm a final year Master of Electrical Engineering student at the University of Melbourne, specialising in electronics.

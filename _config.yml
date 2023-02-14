@@ -45,10 +45,15 @@ show_excerpts: true
 # header_pages: ['Home', 'Posts', 'Pics']
 
 # Build settings
+# remote_theme: pages-themes/midnight@v0.2.0
 theme: minima
+minima:
+  skin: dark
+
 plugins:
   - jekyll-feed
   - jemoji
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 
 

@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 
 ---
 
-In March of 2021, I got the opportunity to travel to **ANSTO** (Australian Nuclear Science and Technology Organisation) in Sydney, Australia, with my supervisor (at the time). <!--more-->
+In March of 2021, I got the opportunity to travel to **ANSTO** (Australian Nuclear Science and Technology Organisation) in Sydney, Australia, with my supervisor at the time. <!--more-->
 ANSTO is a leading research organisation that focuses on nuclear science and technology, and is home to some of the most advanced research facilities in the world. 
 
 

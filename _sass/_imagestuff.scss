@@ -8,14 +8,23 @@ img.match-text-height {
     height: 9em;
 }
 
+img.next-to-post {
+    max-width: 90%; /* or any other percentage value that works for your design */
+    height: auto;
+    max-height: 9em;
+    object-fit: contain;
+}
+
 div.post-float-left {
     width: 70%;
     float: left;
+    // height: 100px;
 }
 
 div.post-float-right {
     width: 30%;
     float: right;
+    // height: 100px;
 }
 
 div.clear {

@@ -10,18 +10,19 @@ excerpt_separator: <!--more-->
 
 ---
 
-
-|![image tooltip here](/assets/capstone/chip-in-carrier.jpg){:.centered , width="50%"}|
-|:--:| 
-| * The silicon photodetectors are placed in a chip carrier and wirebonded. There are multiple photodiodes on the rectangular silicon wafer shown. * |
-
-
 Many electronics students are coming out of university without ever having worked on, seen or touched a silicon wafer. <!--more--> 
 While just being able to use MOSFETs, diodes and other semiconductor devices as if they were black boxes that obeyed their IV characteristics is fine, the students' learning experiences and intuitive understanding of these devices could be significantly improved if they knew *why* (for example) BJTs are designed in a certain way and *how* to build them.
 
 
 
 The main goal of this final year project was to design a device fabrication workflow which could be easily and relatively safely replicated by undergraduate or graduate students. Naturally this isn't going to be competing with the likes of Samsung or TSMC's foundries where they're reaching down to feature sizes in the nanometer scale, but as a learning environment for students? This will do. 
+
+|![image tooltip here](/assets/capstone/chip-in-carrier.jpg){:.centered , width="50%"}|
+|:--:| 
+| * The silicon photodetectors are placed in a chip carrier and wirebonded. There are multiple photodiodes on the rectangular silicon wafer shown. * |
+
+
+
 
 **Make no mistake**. This is not the first time a "budget" and simple fabrication workflow has been developed. Other authors such as [Morsin et al. (2009)](https://ieeexplore.ieee.org/abstract/document/5356421/) and [Ryan (2016)](https://digitalscholarship.unlv.edu/cgi/viewcontent.cgi?article=3901&context=thesesdissertations) have investigated low cost methods for fabrication, in the pursuit of allowing students to be exposed to device fabrication.
 

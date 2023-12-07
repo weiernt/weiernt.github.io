@@ -6,10 +6,10 @@ layout: home2
 title: Home
 permalink: /
 bulletpoints: [
-    'Final Year Electrical Engineering Student :mortar_board:',
-    'Lab Research Assistant :mag_right:',
+    'Master of Electrical Engineering Graduate :mortar_board:',
+    'Teaching and Lab Research Assistant :mag_right:',
     'Student IT Associate Consultant :computer:' ,
-    "Python enthusiast :snake:",
+    "Python Developer :snake:",
     ]
 
 awards: [
@@ -22,4 +22,4 @@ list_title: "Posts/Projects/Updates :book:" # title for the projects and posts e
 <!-- # Big Title testing!
 ## Another smaller one? -->
 
-I'm a final year Master of Electrical Engineering student at the University of Melbourne, specialising in electronics.
+I'm a Master of Electrical Engineering graduate with an interest in semiconductor device fabrication and circuit design. 

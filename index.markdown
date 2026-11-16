@@ -6,15 +6,10 @@ layout: home2
 title: Home
 permalink: /
 bulletpoints: [
-    'Master of Electrical Engineering Graduate :mortar_board:',
-    'Teaching and Lab Research Assistant :mag_right:',
-    'Student IT Associate Consultant :computer:' ,
-    "Python Developer :snake:",
+    'Electronics Design Engineer @ Elsoft Research :bulb:',
+    'Embedded Firmware · STM32 / ESP32 / FPGA :gear:',
+    'Real-Time Systems & Hardware Bring-up :microscope:',
     ]
-
-awards: [
-    '',
-]
 
 list_title: "Posts/Projects/Updates :book:" # title for the projects and posts etc
 ---
@@ -22,4 +17,4 @@ list_title: "Posts/Projects/Updates :book:" # title for the projects and posts e
 <!-- # Big Title testing!
 ## Another smaller one? -->
 
-I'm a Master of Electrical Engineering graduate with an interest in semiconductor device fabrication and circuit design. 
+I'm an Electronics Design Engineer at Elsoft Research in Penang, Malaysia, where I design embedded hardware and real-time firmware for STM32 and ESP32 platforms. 
